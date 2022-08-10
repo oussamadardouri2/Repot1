@@ -11,12 +11,13 @@ package org.xemacscode.demo;
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
 public class Books {
+private String oussama ; 
     private int id;
     private String title;
     private String author;
     private int year;
     private int pages;
-
+oussama = "7allouf" ;
     public Books(int id, String title, String author, int year, int pages) {
         this.id = id;
         this.title = title;
